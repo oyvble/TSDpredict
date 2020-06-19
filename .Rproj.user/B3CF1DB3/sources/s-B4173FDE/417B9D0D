@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592556650801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "417B9D0D",
+    "lastKnownWriteTime" : 1592556705,
+    "last_content_update" : 1592556705403,
+    "path" : "C:/Users/oyvbl/Dropbox/git/TSDpredict/demo/simulatePredictionExample.R",
+    "project_path" : "demo/simulatePredictionExample.R",
+    "properties" : {
+        "cursorPosition" : "35,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

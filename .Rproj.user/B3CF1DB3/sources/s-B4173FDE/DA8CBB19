@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592483421276.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DA8CBB19",
+    "lastKnownWriteTime" : 1592494015,
+    "last_content_update" : 1592494015206,
+    "path" : "C:/Users/oyvbl/Dropbox/git/TSDpredict/R/posteriorTime_NaiveMLE.R",
+    "project_path" : "R/posteriorTime_NaiveMLE.R",
+    "properties" : {
+        "cursorPosition" : "2,23",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
