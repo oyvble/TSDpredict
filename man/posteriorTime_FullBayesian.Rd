@@ -9,9 +9,9 @@ posteriorTime_FullBayesian(
   Data_Y,
   Data_time,
   nu0 = 1,
-  lam0 = 1,
-  sig0 = 1,
-  sig1 = 1,
+  Lambda0 = 1,
+  Sigma0 = c(1, 1, 0),
+  Beta0 = NULL,
   maxTime = 12,
   delta = 0.01,
   priorTime = NULL
@@ -24,13 +24,13 @@ posteriorTime_FullBayesian(
 
 \item{Data_time}{This is observed times (nsamples vector)}
 
-\item{nu0}{#degrees of freedom hyperparameter of invWishart prior distribution (should be 0 or 1)}
+\item{nu0}{degrees of freedom hyperparameter of invWishart prior distribution (should be 0=non-informative or 1=informative)}
 
-\item{lam0}{#variance hyperparameter of invWishart prior distribution}
+\item{Lambda0}{Scale matrix hyperparameter of invWishart prior distribution of Covariance (can be numeric or matrix)}
 
-\item{sig0}{= 100 #scaling SIGMA matrix (beta0)}
+\item{Sigma0}{Covariance hyperparameter of Normal prior distribution of beta (can be numeric or 3 long vector)}
 
-\item{sig1}{= 100 #scaling SIGMA matrix (beta1)}
+\item{Beta0}{Mean hyperparameter of Normal prior distribution of beta (can be 2 long vector or matrix)}
 
 \item{maxTime}{maximum of time (upper limit)}
 
@@ -64,13 +64,14 @@ p(Y) = gamma((nu+m)/2)/gamma(nu/2) (pi*nu)^(-m/2) |A|^-0.5 (1 + (Y-M)'A^{-1}(Y-M
 \examples{
 \dontrun{ 
 ntrain = 100
-ntest = 100
+ntest = 1
 dat = genData(ntrain+ ntest,seed=1)
 Data_Y = dat$Data_Y[1:ntrain,]
 Data_time = dat$Data_time[1:ntrain]
 New_Y = dat$Data_Y[-(1:ntrain),]
 New_time = dat$Data_time[-(1:ntrain)]
 predObj = posteriorTime_FullBayesian(New_Y, Data_Y, Data_time)
+plotPredictions(predObj)
 }
 }
 \author{
