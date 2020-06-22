@@ -1,8 +1,8 @@
 Package: TSDpredict
 Type: Package
 Title: Prediction of Time Since Decomposition
-Version: 0.1
-Date: 2020-06-18
+Version: 0.2
+Date: 2020-06-22
 Author: Oyvind Bleka
 Maintainer: Oyvind Bleka <oyvble@hotmail.com>
 Description: A multivariate response model for predicting Time since decomposition.

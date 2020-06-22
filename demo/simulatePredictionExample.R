@@ -41,3 +41,22 @@ Sigma0 = 1
 pred_FullBayesian = posteriorTime_FullBayesian(New_Y, dat$Data_Y, dat$Data_time,Lambda0=Lambda0, Sigma0=Sigma0, Beta0=Beta0) 
 plotPredictions(pred_FullBayesian,TrueTimes)
 #plotPredictions(pred_FullBayesian,TrueTimes,pdfFileName="PredWith_FullBayesian")
+
+#Calibrate hyperparameters based on marginal evidence (emprical bayes), Used fixed Beta
+pred_EB1 = posteriorTime_EmpiricalBayesian(New_Y, dat$Data_Y, dat$Data_time, Beta0=Beta0) 
+plotPredictions(pred_EB1,TrueTimes)
+
+#Calibrate hyperparameters based on marginal evidence (emprical bayes)
+pred_EB2 = posteriorTime_EmpiricalBayesian(New_Y, dat$Data_Y, dat$Data_time) 
+plotPredictions(pred_EB2,TrueTimes)
+
+
+
+
+
+
+
+
+
+
+

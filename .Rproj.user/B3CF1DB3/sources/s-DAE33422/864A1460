@@ -1,19 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1592492173206.000,
+    "created" : 1592827331552.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2237633070",
-    "id" : "D0F0FE8F",
-    "lastKnownWriteTime" : 1592732522,
-    "last_content_update" : 1592732522106,
+    "hash" : "0",
+    "id" : "864A1460",
+    "lastKnownWriteTime" : 1592827489,
+    "last_content_update" : 1592827489219,
     "path" : "C:/Users/oyvbl/Dropbox/git/TSDpredict/R/posteriorTime_FullBayesian.R",
     "project_path" : "R/posteriorTime_FullBayesian.R",
     "properties" : {
-        "cursorPosition" : "91,70",
-        "scrollLine" : "52"
+        "cursorPosition" : "45,107",
+        "scrollLine" : "0"
     },
     "relative_order" : 5,
     "source_on_save" : false,

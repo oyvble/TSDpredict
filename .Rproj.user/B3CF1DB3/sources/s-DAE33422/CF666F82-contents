@@ -10,6 +10,7 @@
 #' @param maxTime maximum of time (upper limit)
 #' @param seed The user can set seed if wanted
 #' @return A list with variables Data_Y (response), Data_Time 
+#' @importFrom stats rnorm runif
 #' @export
 #' @examples
 #' \dontrun{ 

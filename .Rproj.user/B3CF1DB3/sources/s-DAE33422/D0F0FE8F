@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592492173206.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D0F0FE8F",
+    "lastKnownWriteTime" : 1592826565,
+    "last_content_update" : 1592826565664,
+    "path" : "C:/Users/oyvbl/Dropbox/git/TSDpredict/R/MarginalEvid_FullBayesian.R",
+    "project_path" : "R/MarginalEvid_FullBayesian.R",
+    "properties" : {
+        "cursorPosition" : "26,13",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

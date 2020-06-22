@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1970973832",
+    "hash" : "0",
     "id" : "CF666F82",
-    "lastKnownWriteTime" : 1592553573,
-    "last_content_update" : 1592553573256,
+    "lastKnownWriteTime" : 1592829455,
+    "last_content_update" : 1592829455488,
     "path" : "C:/Users/oyvbl/Dropbox/git/TSDpredict/R/genData.R",
     "project_path" : "R/genData.R",
     "properties" : {
-        "cursorPosition" : "45,23",
+        "cursorPosition" : "12,21",
         "scrollLine" : "0"
     },
     "relative_order" : 2,

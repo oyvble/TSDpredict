@@ -29,7 +29,6 @@
 #' @param maxTime maximum of time (upper limit)
 #' @param delta Grid size for the time variable
 #' @param priorTime A prior distribution for the time variable (NULL means uniform distribution)
-#' @importFrom stats rnorm runif
 #' @return ret list with posterior distribution for each new individuals (separate list for univariate prediction and all combined)
 #' @export
 #' @examples 
